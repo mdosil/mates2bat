@@ -1,0 +1,31 @@
+site_name: Matemàtiques 2n Batxillerat científic
+
+pages:
+- Home: 'index.md'
+- Temes:
+    - '1. Derivades': 'temes/derivades.md'
+    - '2. Funcions contínues i derivables': 'temes/funcions.md'
+    - '3. Estudi de les característiques de una funció. Problemes optimització': 'temes/aplicacionsderivades.md'
+    - '4. Integrals': 'temes/integrals.md'
+    - '5. Matrius i Determinants': 'temes/matrius.md'
+    - '6. Sistemes d equacions': 'temes/sistemes.md'
+    - '7. Vectors a l espai': 'temes/vectors.md'
+    - '8. Rectes i plans': 'temes/equacionsrectesplans.md'
+    - '9. Problemes mètrics': 'temes/problemesmetrics.md'
+
+
+
+- Miscel.lània: misc/misc.md
+- Llicència: sobre.md
+#- Matemàtiques 1r de batxillerat: 'http://mates1batcientific'
+
+theme: cinder
+
+
+
+extra_javascript:
+    - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+
+markdown_extensions:
+    - mdx_math:
+        enable_dollar_delimiter: True
