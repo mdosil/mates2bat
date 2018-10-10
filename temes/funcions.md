@@ -375,7 +375,7 @@ $$
 
 Si ens fixem bé, en el cas de mínims locals, la funció és sempre còncava en el punt (segona derivada positiva) i en el cas de màxims, sempre és convexa (segona derivada negativa).
 
-En l'exemple anterior, la segona derivada de la funció $f(x)=9(x-1)^2$ sempre és positiva (excepte en el punt $x=1$ que val zero). Per tant, podem afirmar que la funció serà còncava en tot el seu domini.
+En l'exemple anterior, la segona derivada de la funció $f(x)=12(x-1)^2$ sempre és positiva (excepte en el punt $x=1$ que val zero). Per tant, podem afirmar que la funció serà còncava en tot el seu domini.
 
 ###Punts d'inflexió
 
