@@ -93,6 +93,7 @@ Considerem $u(x)$ una funció qualsevol. Llavors:
 
 Es pot demostrar que les integrals indefinides compleixen:
 
+
 1. $\int (f(x)+g(x)) \cdot dx = \int f(x)dx+\int g(x)dx $
 2. $\int k \cdot f(x) \cdot dx = k \cdot \int f(x)dx , k \in \mathbb{R} $
 
