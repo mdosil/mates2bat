@@ -59,7 +59,7 @@ Anem a calcular $\int \frac{1}{2x} dx$. Tal i com hem vist a dalt, totes les pri
 \begin{align}
 \int \frac{1}{2x} dx =
 \begin{cases} \frac{1}{2}\int 2 \frac{1}{2x}dx = \frac{1}{2} \ln (2x)+C\\
-\frac{1}{2} \int {1}{x} dx=\frac{1}{2} \ln x +C
+\frac{1}{2} \int \frac{1}{x} dx=\frac{1}{2} \ln x +C
     \end{cases}
     \end{align}
 
@@ -71,6 +71,7 @@ ja que $\ln 2$ és un nombre real. Per tant, acabem de veure que les dues primit
 
 
 ###Taula d'algunes integrals indefinides quasi-immediates
+
 
 Considerem $u(x)$ una funció qualsevol. Llavors:
 
