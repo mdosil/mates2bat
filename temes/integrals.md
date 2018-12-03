@@ -222,7 +222,7 @@ Per trobar les constants $A$ i $B$ substituïm $x$ per dos valors fàcils de tro
 
 $$\left.\begin{aligned}
 x=2&\rightarrow 6-2=3A+0B \\
-x=-1&\rightarrow -3-2=-2A-3B
+x=-1&\rightarrow -3-2=0A-3B
 \end{aligned}\right\rbrace$$
 
 La solució del sistema és $A=\frac{4}{3}$ i $B=\frac{5}{3}$.
