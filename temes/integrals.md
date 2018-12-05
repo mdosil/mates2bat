@@ -304,14 +304,14 @@ Com a regla general, si tenim un polinomi multiplicat per una altra funció, al 
 
 __Exemple 14__
 
-$$\int x \sin(2x)dx=x\cdot (-\frac{1}{2} \cos (2x))-\int 1 (-\frac{1}{2}\cos (2x))dx= -\frac{x}{2} \cos (2x)-\sin(2x)+C$$
+$$\int x \sin(2x)dx=x\cdot (-\frac{1}{2} \cos (2x))-\int 1 (-\frac{1}{2}\cos (2x))dx= -\frac{x}{2} \cos (2x)+\frac{1}{4}\sin(2x)+C$$
 
 __Exemple 15__
 
 \begin{align}
 \int x^2 \sin (3x) dx &= -\frac{1}{3}\int x^2 (-3 \sin(3x)) dx = -\frac{1}{3} \Big[x^2 \cos(3x)-\int 2x \cos (3x)dx \Big]=\\
-&= -\frac{1}{3} \Big[x^2 \cos(3x)-\frac{1}{3}\int 2x (3 \cos (3x))dx \Big]=-\frac{1}{3} \Big[x^2 \cos(3x)-\frac{2}{3}(x \sin (3x)-\int  \sin (3x))dx \Big]=\\
-&=-\frac{1}{3} \Big[x^2 \cos(3x)-\frac{2}{3}(x \sin (3x)+\frac{1}{3} \cos (3x) \Big]+C=-\frac{x^3}{3} \cos(3x)+\frac{2}{9}x \sin (3x)+\frac{2}{27} \cos (3x)+C
+&= -\frac{1}{3} \Big[x^2 \cos(3x)-\frac{1}{3}\int 2x (3 \cos (3x))dx \Big]=-\frac{1}{3} \Big[x^2 \cos(3x)-\frac{2}{3}\Big(x \sin (3x)-\int  \sin (3x)dx \Big)\Big]=\\
+&=-\frac{1}{3} \Big[x^2 \cos(3x)-\frac{2}{3}(x \sin (3x)+\frac{1}{3} \cos (3x) \Big]+C=-\frac{x^3}{3} \cos(3x)+\frac{2}{9}x \sin (3x)-\frac{2}{27} \cos (3x)+C
 \end{align}
 
 
