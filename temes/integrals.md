@@ -339,7 +339,7 @@ $$t=\sqrt{x^2-1}\rightarrow dt=\frac{1}{2\sqrt{x^2-1}}\cdot 2x dx =\frac{x}{\sqr
 
 Si practiquem aquesta substitució a la integral de dalt obtenim:
 
-$$\int \frac{dx}{x\sqrt{x^2-1}}=\int \frac{dt\cdot t}{x}\cdot \frac{1}{x\cdot t}=\int \frac{1}{1+t^2}dt=tan^{-1}(t)+C=tan^{-1}(x^2-1)+C$$
+$$\int \frac{dx}{x\sqrt{x^2-1}}=\int \frac{dt\cdot t}{x}\cdot \frac{1}{x\cdot t}=\int \frac{1}{1+t^2}dt=tan^{-1}(t)+C=tan^{-1}(\sqrt{x^2-1})+C$$
 
 __Exemple 17__
 
