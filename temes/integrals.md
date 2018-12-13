@@ -408,7 +408,7 @@ $$ \int \frac{1+e^x}{1-e^x}dx = \ln e^x -2 \ln (1-e^x)+C=\ln \Big(\frac{e^x}{(1-
 
 Anomenem integrals trigonomètriques aquelles on en el seu integrand hi ha una combinació de funcions trigonomètriques. Algunes d'elles es poden resoldre per altres mètodes, però sovint, aplicant les diferents relacions entre raons trigonomètriques d'un angle, les podem transformar en integrals quasi-immediates. Això és el que veurem aquí.
 
-####Integrals del tipus $\int \sin^P x \cdot \cos^P x dx$ on $p$ i $q$ són exponents parells.
+####Integrals del tipus $\int \sin^p x \cdot \cos^q x dx$ on $p$ i $q$ són exponents parells.
 
 Exemples d'integrals d'aquest tipus són: $\int \sin^2 x dx$, $\int \sin^4 x dx$, $\int \sin^2 x \cos^2 x dx$
 Per a fer aquestes integrals, utilitzarem la fórmula trigonomètrica [del cosinus de l'angle doble](http://mdosil.cat/mates1batcientific/temes/trigonometria/#sinus-i-cosinus-de-langle-doble)  i també, el fet que la suma dels quadrats del sinus i cosinus d'un angle és sempre 1:
@@ -429,7 +429,7 @@ Anem a veure un parell d'exemples:
 
 __Exemple 19__
 
-$$\int \sin^2 x dx=\int \frac{1-\cos 2x}{2}dx=\int \frac{1}{2}dx -\frac{1}{2}\int \cos 2x dx=\frac{1}{2}x-\frac{1}{4}\sin 2x +C$$
+$$\int \sin^2 x dx=\int \frac{1-\cos 2x}{2}dx=\int \frac{1}{2}dx -\frac{1}{2}\int 2 \cos 2x dx=\frac{1}{2}x-\frac{1}{4}\sin 2x +C$$
 
 
 __Exemple 20__
