@@ -435,7 +435,7 @@ $$\int \sin^2 x dx=\int \frac{1-\cos 2x}{2}dx=\int \frac{1}{2}dx -\frac{1}{2}\in
 __Exemple 20__
 
 \begin{align}
-\int \sin^4 x dx&=\int (\sin^2 x)^2 dx=\int \Big(\frac{1-\cos2x}{2}\Big)^2 dx=\int \frac{1+\cos^2 2x - \cos 2x}{4}dx\\
+\int \sin^4 x dx&=\int (\sin^2 x)^2 dx=\int \Big(\frac{1-\cos2x}{2}\Big)^2 dx=\int \frac{1+\cos^2 2x - 2\cos 2x}{4}dx\\
 &=\frac{1}{4}\int dx + \frac{1}{4} \int \cos^2 2x dx -\frac{1}{2}\int \cos 2x dx
 \end{align}
 
