@@ -460,7 +460,7 @@ __Exemple 21__
 \begin{align}
 \int \sin^3 x \cos^5 x dx&= \int \cos x \sin^3 x \cos ^4 x dx=\int \cos x \sin^3 x (1-\sin^2 x)^2 dx\\
 &=\int \cos x \sin^3 x (1+\sin^4 x-2\sin^2x)dx=\int \cos x \sin^3 x dx+\int \cos x \sin^7x dx - 2 \int \cos x \sin^5 x dx\\
-&=\frac{\sin^4 x}{4}+\frac{\sin^8 x}{8}-\frac{\sin^6 x}{6}+C
+&=\frac{\sin^4 x}{4}+\frac{\sin^8 x}{8}-\frac{\sin^6 x}{3}+C
 \end{align}
 
 ####Integrals racionals amb $\sin x$ i $\cos x$
