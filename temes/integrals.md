@@ -408,7 +408,7 @@ $$ \int \frac{1+e^x}{1-e^x}dx = \ln e^x -2 \ln (1-e^x)+C=\ln \Big(\frac{e^x}{(1-
 
 Anomenem integrals trigonomètriques aquelles on en el seu integrand hi ha una combinació de funcions trigonomètriques. Algunes d'elles es poden resoldre per altres mètodes, però sovint, aplicant les diferents relacions entre raons trigonomètriques d'un angle, les podem transformar en integrals quasi-immediates. Això és el que veurem aquí.
 
-####Integrals del tipus $\int \sin^p x \cdot \cos^q x dx$ on $p$ i $q$ són exponents parells.
+####Integrals del tipus $\int \sin(x)^p \cdot \cos(x)^q dx$ on $p$ i $q$ són exponents parells.
 
 Exemples d'integrals d'aquest tipus són: $\int \sin^2 x dx$, $\int \sin^4 x dx$, $\int \sin^2 x \cos^2 x dx$
 Per a fer aquestes integrals, utilitzarem la fórmula trigonomètrica [del cosinus de l'angle doble](http://mdosil.cat/mates1batcientific/temes/trigonometria/#sinus-i-cosinus-de-langle-doble)  i també, el fet que la suma dels quadrats del sinus i cosinus d'un angle és sempre 1:
@@ -447,7 +447,7 @@ Per tant, la integral que volíem resoldre esdevé:
 
 $$\int \sin^4 x dx=...=\frac{1}{4}x+\frac{1}{32}\sin 4x+\frac{1}{8} x -\frac{1}{4}\sin 2x+C=\frac{3}{8} x +\frac{1}{32}\sin 4x-\frac{1}{4}\sin 2x+C$$
 
-####Integrals del tipus $\int \sin^P x \cdot \cos^P x dx$ on $p$ i $q$ són exponents almenys un d'ells senar.
+####Integrals del tipus $\int \sin(x)^p \cdot \cos(x)^q dx$ on $p$ i $q$ són exponents almenys un d'ells senar.
 
 D'aquestes integrals algunes poden ser quasi immediates, com per exemple:
 
