@@ -239,8 +239,8 @@ L'índex $i$ normalment s'utilitza per les files i l'índex $j$ per les columnes
     Donada una matriu quadrada $A$, de dimensió $nxn$, direm que és antisimètrica si els seus elements verifiquen $a_{ij}=-a{ji} \forall i,j$:
 
     $$A=\begin{pmatrix}
-    1 & -3 & 5 \\
-    3 & 4 & -2\\
+    0 & -3 & 5 \\
+    3 & 0 & -2\\
     -5 & 2 & 0
     \end{pmatrix}
     $$
