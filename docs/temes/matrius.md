@@ -1,4 +1,4 @@
-#Tema 5: Matrius i determinants
+#Tema 5: Matrius i determinants!
 
 ##Definició: matrius i tipus de matrius
 
