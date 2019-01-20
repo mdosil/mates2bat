@@ -245,7 +245,7 @@ L'índex $i$ normalment s'utilitza per les files i l'índex $j$ per les columnes
     \end{pmatrix}
     $$
 
-    Una matriu $A$ és antisimètrica si $A^T=-A$.
+    Una matriu $A$ és antisimètrica si $A^T=-A$. Per tant, totes les matrius antisimètriques tenen zeros a la seva diagonal.
 
 ##Operacions amb matrius
 
