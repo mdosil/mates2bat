@@ -236,7 +236,7 @@ L'índex $i$ normalment s'utilitza per les files i l'índex $j$ per les columnes
 
 11. __Matriu antisimètrica__
 
-    Donada una matriu quadrada $A$, de dimensió $nxn$, direm que és antisimètrica si els seus elements verifiquen $a_{ij}=-a{ji} \forall i,j$:
+    Donada una matriu quadrada $A$ de dimensió $nxn$, direm que és antisimètrica si els seus elements verifiquen $a_{ij}=-a{ji} \forall i,j$:
 
     $$A=\begin{pmatrix}
     0 & -3 & 5 \\
