@@ -108,7 +108,7 @@ L'índex $i$ normalment s'utilitza per les files i l'índex $j$ per les columnes
 
 
     $$u_{1x5}=\begin{pmatrix}
-    0 & 5 & 3 & 2 8
+    0 & 5 & 3 & 2 & 8
     \end{pmatrix}$$
 
 
@@ -295,11 +295,11 @@ $$
 
 3. Element neutre
 
-   És la matriu nul.la perquè sumada a qualsevol matriu la deixa invariant.
+    És la matriu nul.la perquè sumada a qualsevol matriu la deixa invariant.
 
 4. Element oposat
 
-   L'element oposat a una matriu $A$ és la matriu $-A$ perquè sumades donen l'element neutre.
+    L'element oposat a una matriu $A$ és la matriu $-A$ perquè sumades donen l'element neutre.
 
 ###Producte d'una matriu per un nombre
 
@@ -337,7 +337,7 @@ __Exemple 2__
 
 $$
 \begin{pmatrix}
-1 & 3 &...& 2
+1 & 3 & 2
 \end{pmatrix}
 \cdot
 \begin{pmatrix}
@@ -551,7 +551,7 @@ $$
 1 & 0\\
 0 & 1
 \end{vmatrix}
-+0\begin{vmatrix}
+-0\begin{vmatrix}
 -3 & 0\\
 1 & 1
 \end{vmatrix}
@@ -732,7 +732,7 @@ Si multipliquem els elements d'una fila (o columna) pels adjunts d'una altra fil
 
 
 
-10. Si una fila (o columna) se combinació lineal de les altres, el determinant és $0$.
+10. Si una fila (o columna) és combinació lineal de les altres, el determinant és $0$.
 
 
      $$
