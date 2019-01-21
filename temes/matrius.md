@@ -461,7 +461,9 @@ A^3&=A^2\cdot A=A\cdot A \cdot A\\
 A^n&=A\cdot A \cdot A....\cdot A
 \end{align}
 
-##Determinants d'ordre dos
+##Determinants
+
+###Determinants d'ordre dos
 
 Donada una matriu quadrada $2x2$ podem definir el determinant d'aquesta matriu com l'operació:
 
@@ -475,7 +477,7 @@ $$
 
 El resultat d'un determinant sempre és un nombre real.
 
-##Determinants d'ordre tres
+###Determinants d'ordre tres
 
 També podem definir el determinant d'una matriu d'ordre 3:
 
@@ -508,7 +510,7 @@ $$
 $$
 
 
-###Càlcul de determinants d'ordre tres desenvolupant per una fila o una columna
+####Càlcul de determinants d'ordre tres desenvolupant per una fila o una columna
 
 Podem transformar el càlcul de determinants d'ordre 3 de la manera següent:
 
@@ -562,7 +564,7 @@ $$
 =-1
 $$
 
-#### Adjunt d'un element $a_{ij}$. Matriu adjunta
+##### Adjunt d'un element $a_{ij}$. Matriu adjunta
 
 Intentarem d'expressar això d'una manera més formal. Definim $\alpha_{ij}$ com el __menor complementari__ d'un element $a_{ij}$ d'una matriu $A$ com aquell determinant d'ordre $2$ que s'obté en eliminar la fila $i$ i la columna $j$ de la matriu $A$. També definim $A_{ij}$ com __l'adjunt d'un element__ $a_{ij}$ d'una matriu $A$: és el seu menor complementari $\alpha_{ij}$ afectat d'un signe determinant per la seva situació en la matriu segons:
 
@@ -606,7 +608,7 @@ $$
 
 Si multipliquem els elements d'una fila (o columna) pels adjunts d'una altra fila (o columna) el valor sempre és zero.
 
-###Propietats dels determinants
+####Propietats dels determinants
 
 1. El determinant de la matriu unitat és $1$.
 
@@ -767,7 +769,7 @@ Si multipliquem els elements d'una fila (o columna) pels adjunts d'una altra fil
 
 
 
-##Determinants d'ordre 4
+###Determinants d'ordre 4
 
 Sigui $A$ una matriu quadrada d'ordre 4:
 
