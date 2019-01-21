@@ -6,7 +6,8 @@ En aquest apartat hi podeu trobar alguns exercicis i les toolbox utilitzades per
 
 | **Tema**                                                                              | **Enllaç al document**                                 |
 | :------------------------------------------------------------------------------------ | :----------------------------------------------------- |
-| [Derivades](http://mdosil.cat/mates2batcientific/temes/derivades/)            | [Toolbox](toolbox/taula_derivades.pdf)          |
+| Must know            | [Enllaç al document](toolbox/mustknow.pdf)          |
+| [Derivades](http://mdosil.cat/mates2batcientific/temes/derivades/)            | [Taula de derivades](toolbox/taula_derivades.pdf)          |
 
 
 
