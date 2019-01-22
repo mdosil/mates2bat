@@ -463,7 +463,7 @@ A^n&=A\cdot A \cdot A....\cdot A
 
 ##Determinants
 
-###Determinants d'ordre dos
+###Determinants d'ordre 2
 
 Donada una matriu quadrada $2x2$ podem definir el determinant d'aquesta matriu com l'operació:
 
@@ -477,7 +477,7 @@ $$
 
 El resultat d'un determinant sempre és un nombre real.
 
-###Determinants d'ordre tres
+###Determinants d'ordre 3
 
 També podem definir el determinant d'una matriu d'ordre 3:
 
