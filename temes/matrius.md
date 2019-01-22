@@ -608,6 +608,60 @@ $$
 
 Si multipliquem els elements d'una fila (o columna) pels adjunts d'una altra fila (o columna) el valor sempre és zero.
 
+
+
+
+###Determinants d'ordre 4
+
+Sigui $A$ una matriu quadrada d'ordre 4:
+
+$$
+A=
+\begin{pmatrix}
+a_{11} & a_{12} & a_{13} & a_{14}\\
+a_{21} & a_{22} & a_{23} & a_{24}\\
+a_{31} & a_{32} & a_{33} & a_{34}\\
+a_{41} & a_{42} & a_{43} & a_{44}\\
+\end{pmatrix}
+$$
+
+Per calcular el seu determinant, ho farem desenvolupant per una fila o una columna:
+
+$$
+|A|=
+\begin{vmatrix}
+a_{11} & a_{12} & a_{13} & a_{14}\\
+a_{21} & a_{22} & a_{23} & a_{24}\\
+a_{31} & a_{32} & a_{33} & a_{34}\\
+a_{41} & a_{42} & a_{43} & a_{44}\\
+\end{vmatrix}
+= a_{11}A_{11}+a_{12}A_{12}+a_{13}A_{13}+a_{14}A_{14}
+$$
+
+__Exemple 8__
+
+Calcula el determinant següent:
+
+$$
+\begin{vmatrix}
+1 & 0 & 0 & 2\\
+-1 & 3 & 1 & 0\\
+0 & 1 & 2 & 1\\
+1 & 1 & 3 & 1\\
+\end{vmatrix}
+= 1 \begin{vmatrix}
+3 & 1 & 0\\
+1 & 2 & 1\\
+1 & 3 & 1\\
+\end{vmatrix}
+-2 \begin{vmatrix}
+-1 & 3 & 1\\
+0 & 1 & 2\\
+1 & 1 & 3\\
+\end{vmatrix}
+=1(6+1-9-1)-2(-3+6-1+2)=-11
+$$
+
 ###Propietats dels determinants
 
 1. El determinant de la matriu unitat és $1$.
@@ -767,58 +821,6 @@ Si multipliquem els elements d'una fila (o columna) pels adjunts d'una altra fil
 
      $$|A\cdot B|=|A|\cdot |B|$$
 
-
-
-###Determinants d'ordre 4
-
-Sigui $A$ una matriu quadrada d'ordre 4:
-
-$$
-A=
-\begin{pmatrix}
-a_{11} & a_{12} & a_{13} & a_{14}\\
-a_{21} & a_{22} & a_{23} & a_{24}\\
-a_{31} & a_{32} & a_{33} & a_{34}\\
-a_{41} & a_{42} & a_{43} & a_{44}\\
-\end{pmatrix}
-$$
-
-Per calcular el seu determinant, ho farem desenvolupant per una fila o una columna:
-
-$$
-|A|=
-\begin{vmatrix}
-a_{11} & a_{12} & a_{13} & a_{14}\\
-a_{21} & a_{22} & a_{23} & a_{24}\\
-a_{31} & a_{32} & a_{33} & a_{34}\\
-a_{41} & a_{42} & a_{43} & a_{44}\\
-\end{vmatrix}
-= a_{11}A_{11}+a_{12}A_{12}+a_{13}A_{13}+a_{14}A_{14}
-$$
-
-__Exemple 8__
-
-Calcula el determinant següent:
-
-$$
-\begin{vmatrix}
-1 & 0 & 0 & 2\\
--1 & 3 & 1 & 0\\
-0 & 1 & 2 & 1\\
-1 & 1 & 3 & 1\\
-\end{vmatrix}
-= 1 \begin{vmatrix}
-3 & 1 & 0\\
-1 & 2 & 1\\
-1 & 3 & 1\\
-\end{vmatrix}
--2 \begin{vmatrix}
--1 & 3 & 1\\
-0 & 1 & 2\\
-1 & 1 & 3\\
-\end{vmatrix}
-=1(6+1-9-1)-2(-3+6-1+2)=-11
-$$
 
 ##Triangulació de Matrius
 
