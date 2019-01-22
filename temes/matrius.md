@@ -283,7 +283,7 @@ $$\begin{pmatrix}
 \end{pmatrix}
 $$
 
-###Propietats de la suma de matrius
+####Propietats de la suma de matrius
 
 1. Associativa
 
@@ -608,7 +608,7 @@ $$
 
 Si multipliquem els elements d'una fila (o columna) pels adjunts d'una altra fila (o columna) el valor sempre és zero.
 
-####Propietats dels determinants
+###Propietats dels determinants
 
 1. El determinant de la matriu unitat és $1$.
 
