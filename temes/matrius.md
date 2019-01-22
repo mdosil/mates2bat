@@ -283,7 +283,7 @@ $$\begin{pmatrix}
 \end{pmatrix}
 $$
 
-####Propietats de la suma de matrius
+###Propietats de la suma de matrius
 
 1. Associativa
 
