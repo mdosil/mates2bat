@@ -835,7 +835,7 @@ Donada una matriu quadrada $4x4$, per triangular-la (zeros sota la diagonal prin
 
 Veiem-ho amb el mateix exemple anterior:
 
-__Exemple 8__
+__Exemple 9__
 
 Calcula el determinant següent triangulant la matriu primer:
 
@@ -1045,7 +1045,7 @@ i per tant, necessàriament, si multipliquem alguna cosa per $A$ i obtenim la ma
 
 $$A^{-1}=\frac{(Adj(A))^T)}{|A|}$$
 
-__Exemple 9__
+__Exemple 10__
 
 Calcula la matriu inversa de:
 
@@ -1099,7 +1099,7 @@ A_{21}=
 -
 \begin{vmatrix}
 5 & 2\\
--1 & -1
+3 & 4
 \end{vmatrix}
 =-14
 \qquad
@@ -1312,7 +1312,7 @@ Es pot demostrar també, que:
 
 A la pràctica això vol dir que si tots els menors són zero, el rang serà una unitat inferior i no cal mirar els menors d'ordre superior, perquè segur que també seran zero.
 
-Si utilitzant totes les possibilitats d'orlar un menor fem servir la mateixa fila però diferents columnes (o al revés) i veiem que tots els determinants són zero, podem afirmar que la fila (o columna) amb la que hem orlat el menor és combinació lineal de les files (o columnes) del menor. Veurem això amb més claredat a l'exemple 10.
+Si utilitzant totes les possibilitats d'orlar un menor fem servir la mateixa fila però diferents columnes (o al revés) i veiem que tots els determinants són zero, podem afirmar que la fila (o columna) amb la que hem orlat el menor és combinació lineal de les files (o columnes) del menor. Veurem això amb més claredat a l'exemple 11.
 
 ###Mètode per calcular el rang
 
@@ -1321,7 +1321,7 @@ Si utilitzant totes les possibilitats d'orlar un menor fem servir la mateixa fil
 3. En general, si trobem menors no nuls, continuem aquest procés fins a trobar un menor d'ordre $k$ tal que al orlar-lo amb les files i columnes que queden tots els menors d'ordre $k+1$ són nuls. Aleshores el rang de la matriu $A$ serà $k$.
 
 
-__Exemple 10__
+__Exemple 11__
 
 Trobeu el rang de la matriu:
 
