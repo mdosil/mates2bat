@@ -987,7 +987,7 @@ Veiem què obtenim en multiplicar $A$ per la transposta de la seva matriu adjunt
 
 
 $$
-A\cdot (Adj(A))^T)=
+A\cdot (Adj(A))^T=
 A=\begin{pmatrix}
 a_{11} & a_{12} & a_{13} &...& a_{1n}\\
 a_{21} & a_{22} & a_{23} &...& a_{2n}\\
@@ -1024,7 +1024,7 @@ Veiem que el que apareix a la diagonal de la lmatriu és el __desenvolupament de
 
 
 $$
-A\cdot (Adj(A))^T)=
+A\cdot (Adj(A))^T=
 \begin{pmatrix}
 |A| & 0 & 0 &...& 0\\
 0 & |A| & 0 &...& 0\\
@@ -1043,7 +1043,7 @@ $$A\cdot \frac{(Adj(A))^T)}{|A|}=\mathbb{1}_{nxn}$$
 
 i per tant, necessàriament, si multipliquem alguna cosa per $A$ i obtenim la matriu identitat, aquest factor ha de ser l'invers de la matriu $A$:
 
-$$A^{-1}=\frac{(Adj(A))^T)}{|A|}$$
+$$A^{-1}=\frac{(Adj(A))^T}{|A|}$$
 
 __Exemple 10__
 
