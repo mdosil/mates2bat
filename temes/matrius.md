@@ -1039,7 +1039,7 @@ $$
 on $\mathbb{1}_{nxn}$ és la matriu identitat $nxn$.
 Si $|A|\ne 0$ això és pot expressar com:
 
-$$A\cdot \frac{(Adj(A))^T)}{|A|}=\mathbb{1}_{nxn}$$
+$$A\cdot \frac{(Adj(A))^T}{|A|}=\mathbb{1}_{nxn}$$
 
 i per tant, necessàriament, si multipliquem alguna cosa per $A$ i obtenim la matriu identitat, aquest factor ha de ser l'invers de la matriu $A$:
 
