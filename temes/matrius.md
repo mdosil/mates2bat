@@ -1037,7 +1037,7 @@ A\cdot (Adj(A))^T=
 =|A|\cdot \mathbb{1}_{nxn}
 $$
 on $\mathbb{1}_{nxn}$ és la matriu identitat $nxn$.
-Si $|A|\ne 0$ això és pot expressar com:
+Si $|A|\ne 0$ això es pot expressar com:
 
 $$A\cdot \frac{(Adj(A))^T}{|A|}=\mathbb{1}_{nxn}$$
 
