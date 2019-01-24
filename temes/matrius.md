@@ -1170,7 +1170,7 @@ $$
 Així doncs, la inversa de $A$ serà:
 
 
-$$A^{-1}=\frac{(Adj(A))^T)}{|A|}=
+$$A^{-1}=\frac{(Adj(A))^T}{|A|}=
 \frac{ 1 }{ -23 }
 \begin{pmatrix}
 -1 & -14 & -3\\
