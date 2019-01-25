@@ -6,6 +6,7 @@
 \usepackage{amsmath, amssymb}
 \usepackage{graphicx}
 \usepackage{color}
+\usepackage{longtable}
 \definecolor{bg}{rgb}{0.89, 0.95, 0.71} % background e3f3b4
 \definecolor{ac}{rgb}{0.50, 0.18, 0.41} % accent c491b6
 \definecolor{rc}{rgb}{0.77, 0.57, 0.71} % rule 7f2f69
@@ -51,31 +52,7 @@
 \newcommand{\bibliolink}[2]{\href{#1}{\nolinkurl{#1}}, \href{#1}{#2}}
 
 \setlength{\parskip}{0.75ex}
-\makeatletter % from emma pease at csli.stanford.edu
-% \@startsection {NAME}{LEVEL}{INDENT}{BEFORESKIP}{AFTERSKIP}{STYLE}
-%            optional * [ALTHEADING]{HEADING}
-%    Generic command to start a section.
-%    NAME       : e.g., 'subsection'
-%    LEVEL      : a number, denoting depth of section -- e.g., chapter=1,
-%                 section = 2, etc.  A section number will be printed if
-%                 and only if LEVEL < or = the value of the secnumdepth
-%                 counter.
-%    INDENT     : Indentation of heading from left margin
-%    BEFORESKIP : Absolute value = skip to leave above the heading.
-%                 If negative, then paragraph indent of text following
-%                 heading is suppressed.
-%    AFTERSKIP  : if positive, then skip to leave below heading,
-%                       else - skip to leave to right of run-in heading.
-%    STYLE      : commands to set style
-%  If '*' missing, then increments the counter.  If it is present, then
-%  there should be no [ALTHEADING] argument.  A sectioning command
-%  is normally defined to \@startsection + its first six arguments.
-%
-%colors in sections and subsections
-%\def\section{\@startsection {section}{1}{\z@}{2.5ex plus .6ex minus
-%    .2ex}{1.0ex plus .15ex}{\hspace*{-3em}\Large\bf\color{ac}}}
-%\def\subsection{\@startsection{subsection}{2}{\z@}{1.5ex plus .3ex minus
-%   .1ex}{.2ex plus .1ex}{\hspace*{-3em}\bf\large\color{ac}}}
+\makeatletter 
 \makeatother
 \setcounter{secnumdepth}{0}
 
@@ -109,7 +86,7 @@
 
 
 \begin{center}
-	\begin{tabular}{ | l |l|l|}
+	\begin{longtable}{ | l |l|l|}
 		\hline
 		\cellcolor{gray}\textbf{Topic} & \cellcolor{gray}\textbf{Resum / Equació} &  \cellcolor{gray}\textbf{Gràfics} \\
 		\hline
@@ -147,20 +124,38 @@
     & 2. Identificar identitats notables & \\
     & 3. Descomposició per Ruffini $(x-a)$ & \\
     \hline
-    Trigonometria& & \\
+    Trigonometria & Relacions trigonomèriques importants& \\
+    & $\sin^2 x + \cos^2 x=1  $& \includegraphics[width=0.2\textwidth, height=30mm]{circumf_unitat.png}\\
+    & $\cos(2x) =\cos^2 x-\sin^2 x$& \\
+    & $\sin(2x)=2\cos x \sin x$& \\
     \hline
-    &Triangle rectangle& \\
-    &Relacions trigonomèriques importants& \\
-    \hline
-    Representació gràfica de funcions & Característiques & \\
-    \hline
+    Representació gràfica de funcions & & \\
+    & Domini: $\begin{cases} \frac{f(x)}{g(x)}\rightarrow D=\mathbb{R}-zeros\qquad g(x)\\ \sqrt{f(x)}\rightarrow D=x | f(x) \ge 0\\ log(f(x)) \rightarrow D=x | f(x) > 0 \end{cases}$ & \\
+    & Punts de tall amb els eixos: eix $x\rightarrow f(x)=0$, eix $y\rightarrow f(0)$& \\
+    & Simetria parell $f(x)=f(-x)$, simetria senar $f(x)=-f(-x)$& \\
+    & Ass. verticals $\rightarrow \lim_{x\to a }f(x)=\pm \infty$& \\
+    & Ass. horitzontals $\rightarrow \lim_{x\to \pm \infty }f(x)=a$& \\
+    & Creixement i decreixement $\rightarrow$ signe $f^{,}(x)$&\\
+    & Màxims i mínims $\rightarrow$ $f^{,}(x)=0$ i $f^{,,}(x)<0$ o $f^{,,}(x)>0$&\\
+    & Punts d'inflexió $\rightarrow$ $f^{,,}(x)=0$ i $f^{,,,}(x)\neq 0$&\\
+    & Concavitat i convexitat $\rightarrow$ signe $f^{,,}(x)$&\\
+        \hline
     Translacions en els eixos& & \\
+    & $f(x+a), a>0\rightarrow$ Trasllada $f(x)$ $a$ unitats cap a l'esquerra, eix $x$& \\
+    & $f(x)+a, a>0\rightarrow$ Trasllada $f(x)$ $a$ unitats cap a dalt, eix $y$& \\
     \hline
     Rectes& & \\
+    &$y=mx+n$&\\
+    &$Ax+By-C=0\rightarrow \overrightarrow{v}=(-B,A)\qquad m=-\frac{A}{B}$&\\
     \hline
     Paràboles& & \\
-    \hline
+    &$y=ax^2+bx+c$&\\
+    &vèrtex$\rightarrow x=-\frac{b}{2a}$&\\
+    &Tall eix x: $ax^2+bx+c=0$; Tall eix y: $(0,c)$&\\
+    &$a>0\rightarrow \cup \qquad a<0\rightarrow \cap$&\\
+     \hline
     Funcions de proporcionalitat inversa& & \\
+    &$f(x)=\frac{1}{x}$&\\
     \hline
     Funcions exponencials& & \\
     \hline
@@ -168,7 +163,7 @@
         \hline
     Recta tangent a la gràfica d'una funció en un punt& & \\
 \hline
-	\end{tabular}
+	\end{longtable}
 \end{center}
 
 
