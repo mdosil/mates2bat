@@ -218,7 +218,7 @@ L'índex $i$ normalment s'utilitza per les files i l'índex $j$ per les columnes
     \quad
     -A=\begin{pmatrix}
     -2 & -5 & 0\\
-    -1 & -3 & -7
+    1 & -3 & -7
     \end{pmatrix}$$
 
 10. __Matriu simètrica__

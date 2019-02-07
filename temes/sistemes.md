@@ -56,9 +56,9 @@ L'enunciat del teorema ens diu el següent:
 
 > Un sistema només és __compatible__ si rang$M$=rang$MA$.
 
->Si rang$M$=rang$MA$=$r=n$, on $n$ és el nombre d'incògnites, el sistema és __compatible determinat__
+>Si rang$A$=rang$MA$=$r=n$, on $n$ és el nombre d'incògnites, el sistema és __compatible determinat__
 
->Si rang$M$=rang$MA$=$r<n$, el sistema és __compatible indeterminat__ amb $n-r$ graus de llibertat.
+>Si rang$A$=rang$MA$=$r<n$, el sistema és __compatible indeterminat__ amb $n-r$ graus de llibertat o paràmetres.
 
 
 ##Notació matricial d'un sistema
@@ -553,7 +553,7 @@ $$
 Com que el rang és 2 i tenim 3 incògnites, això voldrà dir que hi ha un paràmetre (nombre real). El que es fa és assignar aquest paràmetre a una de les variables i expressar les altres en funció d'aquest valor. En el nostre cas, farem:
 
 $$
-z=\lambda \qquad y=\frac{ 2-6\lambda }{ 5 } \qquad x=\frac{ 1-7\lambda }{ 5 }
+z=\lambda \qquad y=\frac{ 2-6\lambda }{ 5 } \qquad x=\frac{ 1+\lambda }{ 5 }
 $$
 
 ##Sistemes homogenis
@@ -577,7 +577,7 @@ $$
 1 & -1\\
 2 & 1
 \end{vmatrix}
-=4
+=3
 $$
 
 El rang com a mínim és 2. Anem a calcular el menor d'ordre 3:
@@ -636,8 +636,7 @@ $$
 -1 & -7\\
 1 & 1
 \end{vmatrix}
-=5
-$$
+=6$$
 
 El rang com a mínim és 2. Anem a calcular el menor d'ordre 3. Ho fem desenvolupant per la 1a fila:
 
