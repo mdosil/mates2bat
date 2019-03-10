@@ -63,7 +63,7 @@ Sigui $k$ un nombre real diferent de zero i $\overrightarrow{ u }$ un vector a $
 
 $$\overrightarrow{ u }=(u_1,u_2,u_3)\rightarrow k\cdot \overrightarrow{ u }=(k\cdot u_1,k\cdot u_2, k\cdot u_3)$$
 
-Per tant, $k\cdot \overrightarrow{ u }$ té la mateixa direcció que el vector \overrightarrow{ u } i el sentit dependrà de si $k$ és un nombre positiu o negatiu. Pel que fa al mòdul: $|k\cdot \overrightarrow{ u }|=|k|\cdot |\overrightarrow{ u }|$.
+Per tant, $k\cdot \overrightarrow{ u }$ té la mateixa direcció que el vector $\overrightarrow{ u }$ i el sentit dependrà de si $k$ és un nombre positiu o negatiu. Pel que fa al mòdul: $|k\cdot \overrightarrow{ u }|=|k|\cdot |\overrightarrow{ u }|$.
 
 El producte d'un vector per un nombre real ens permet obtenir vectors __unitaris__, de mòdul $1$: una manera senzilla d'obtenir un vector unitari a partir d'un de donat, és dividir les seves components pel mòdul del vector. Si $\overrightarrow{ u }$ és un vector qualsevol, $\frac{ 1 }{ |\overrightarrow{ u }| }\cdot \overrightarrow{ u }$ té mòdul 1.
 
