@@ -339,7 +339,7 @@ Que com que és esglaonat el podem solucionar tranquil.lament i trobem que:
 
 $$a=1, b=2, c=1$$
 
-Per tant, el vector $\overrightarrow{ v }$ té components $(1,2,1)$ en la base $<(2,3,0,(3,1,-2),(1,1,0))>$.
+Per tant, el vector $\overrightarrow{ v }$ té components $(1,2,1)$ en la base $<(2,3,0),(3,1,-2),(1,1,0)>$.
 
 ##Producte escalar
 
