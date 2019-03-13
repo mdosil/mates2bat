@@ -359,7 +359,7 @@ $$\bbox[5px,border:2px solid black]{\overrightarrow{ u }\cdot \overrightarrow{ v
 
 * Commutativa: $\overrightarrow{ u }\cdot \overrightarrow{ v }=\overrightarrow{ v }\cdot \overrightarrow{ u }$
 * Associativa: $\overrightarrow{ u }\cdot (\overrightarrow{ v }\cdot \overrightarrow{ w })=(\overrightarrow{ u }\cdot \overrightarrow{ v })\cdot \overrightarrow{ w }$
-* Distributiva respecte la suma: $\overrightarrow{ u }\cdot (\overrightarrow{ v } + \overrightarrow{ w })=\overrightarrow{ u }\cdot \overrightarrow{ v } + \overrightarrow{ u }\cdot \overrightarrow{ w })$
+* Distributiva respecte la suma: $\overrightarrow{ u }\cdot (\overrightarrow{ v } + \overrightarrow{ w })=\overrightarrow{ u }\cdot \overrightarrow{ v } + \overrightarrow{ u }\cdot \overrightarrow{ w }$
 
 Recordem que el producte escalar de dos vectors ortogonals (perpendiculars) és zero, i el producte escalar de dos vectors paral.lels és màxim igual al producte de mòduls.
 
