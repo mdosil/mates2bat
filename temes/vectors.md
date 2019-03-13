@@ -377,7 +377,7 @@ $|\overrightarrow{ AD }|$ és la __projecció del vector $\overrightarrow{ AB }$
 
 En general, definim la projecció d'un vector $\overrightarrow{ a }$ sobre un vector $\overrightarrow{ b }$ com:
 
-$$\overrightarrow{ a }_{\overrightarrow{ b }}=\frac{ \overrightarrow{ a }\cdot \overrightarrow{ b }}{ |\overrightarrow{ b }| }=\overrightarrow{ a }\cdot \overrightarrow{ u }_{\overrightarrow{ b }}$$
+$$proj(\overrightarrow{ a }_{\overrightarrow{ b }})=\frac{ \overrightarrow{ a }\cdot \overrightarrow{ b }}{ |\overrightarrow{ b }| }=|\overrightarrow{ a }\cdot \overrightarrow{ u }_{\overrightarrow{ b }}|$$
 
 on $\overrightarrow{ u }_{\overrightarrow{ b }}$ és un vector unitari amb la mateixa direcció i sentit que $\overrightarrow{ b }$.
 
