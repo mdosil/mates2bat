@@ -377,7 +377,7 @@ $|\overrightarrow{ AD }|$ és la __projecció del vector $\overrightarrow{ AB }$
 
 En general, definim la projecció d'un vector $\overrightarrow{ a }$ sobre un vector $\overrightarrow{ b }$ com:
 
-$$proj(\overrightarrow{ a }_{\overrightarrow{ b }})=\frac{ \overrightarrow{ a }\cdot \overrightarrow{ b }}{ |\overrightarrow{ b }| }=|\overrightarrow{ a }\cdot \overrightarrow{ u }_{\overrightarrow{ b }}|$$
+$$proj(\overrightarrow{ a }_{\overrightarrow{ b }})=\frac{ |\overrightarrow{ a }\cdot \overrightarrow{ b }|}{ |\overrightarrow{ b }| }=|\overrightarrow{ a }\cdot \overrightarrow{ u }_{\overrightarrow{ b }}|$$
 
 on $\overrightarrow{ u }_{\overrightarrow{ b }}$ és un vector unitari amb la mateixa direcció i sentit que $\overrightarrow{ b }$.
 
@@ -404,7 +404,7 @@ on $\overrightarrow{ i }=(1,0,0)$, $\overrightarrow{ j }=(0,1,0)$ i $\overrighta
 ###Propietats del producte vectorial
 
 1. El mòdul del producte vectorial es calcula segons: $|\overrightarrow{ u } \times \overrightarrow{ v }|=|\overrightarrow{ u }|\cdot |\overrightarrow{ v }|\cdot \sin(\overrightarrow{ u },\overrightarrow{ v })$
-2. El producte vectorial és anticommutatiu: $\overrightarrow{ u } \times \overrightarrow{ v }=-\overrightarrow{ v } x \overrightarrow{ u }$
+2. El producte vectorial és anticommutatiu: $\overrightarrow{ u } \times \overrightarrow{ v }=-\overrightarrow{ v } \times \overrightarrow{ u }$
 3. Associativa respecte el producte per un escalar: $k\cdot (\overrightarrow{ u } \times \overrightarrow{ v })= (k\cdot \overrightarrow{ u }) \times \overrightarrow{ v }$
 4. Distributiva respecte la suma: $\overrightarrow{ u } \times (\overrightarrow{ v } + \overrightarrow{ w })= \overrightarrow{ u } \times \overrightarrow{ v } +\overrightarrow{ u } \times \overrightarrow{ w }$
 
