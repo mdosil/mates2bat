@@ -234,7 +234,7 @@ __Exemple 3__
 
 Calcula la projecció de la recta $r:\begin{cases} x=-4+6\lambda  \\ y=3  \\ z= 5-5 \lambda  \end{cases}$ sobre el pla $\pi: z=3$.
 
-Primer de tot cal comprovar la posició relativa entre la recta i el pla. El vector director de la recta és $\overrightarrow{ v }=(6,0,-5)$ i el vector normal del pla és $\overrightarrow{ n }=(0,0,1)$. Veiem que no són paral.lels, per tant, la recta i el pla es tallen.
+Primer de tot cal comprovar la posició relativa entre la recta i el pla. El vector director de la recta és $\overrightarrow{ v }=(6,0,-5)$ i el vector normal del pla és $\overrightarrow{ n }=(0,0,1)$. Veiem que no són perpendiculars, per tant, la recta i el pla es tallen.
 
 Per calcular la projecció de la recta sobre el pla, primer de tot calcularem la projecció d'un punt $P$ de la recta sobre el pla, $P^{\prime}$. Llavors, calcularem el punt de tall de la recta $r$ amb el pla $\pi$. Amb aquests 2 punts, ja en tindrem prou per trobar la projecció de la recta $r$ sobre el pla $\pi$, $r^{\prime}$.
 
