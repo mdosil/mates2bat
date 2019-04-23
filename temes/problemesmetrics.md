@@ -189,7 +189,7 @@ Existeix també una fòrmula per a calcular la distància entre dues rectes que 
 
 $$d(r,s)=\frac{ |\overrightarrow{ PQ } \cdot (\overrightarrow{ u }\times \overrightarrow{ v })|}{ |\overrightarrow{ u }\times \overrightarrow{ v }| }$$
 
-**Manera 2**
+*Manera 2*
 
 També podíem haver fet aquest problema d'una altra manera. Anem a veure-ho a sota.
 
@@ -215,7 +215,7 @@ També podíem haver fet aquest problema d'una altra manera. Anem a veure-ho a s
     $$(1+\lambda)-2(-2\lambda)+(2+\lambda)-1=0\rightarrow \lambda=-\frac{ 1 }{ 3 }$$
 
 
-4. La distància entre les dures rectes serà el mòdul del vector $\overrightarrow{ PP^{\prime} }$:
+4. La distància entre les dues rectes serà el mòdul del vector $\overrightarrow{ PP^{\prime} }$:
 
 
     $$P^{\prime}=\big( \frac{ 2 }{ 3 },\frac{ 2 }{ 3 },\frac{ 5 }{ 3 } \big) \rightarrow |\overrightarrow{ P P^{\prime} }|=\sqrt{ (\frac{ 2 }{ 3 }-1)^2+ (\frac{ 2 }{ 3 }-0)^2 + (\frac{ 5 }{ 3 }-2)^2 }=\frac{ \sqrt{ 6} }{ 3 }$$
