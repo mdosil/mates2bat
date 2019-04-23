@@ -250,7 +250,7 @@ Ara trobarem el punt $C$ d'intersecció de $r$ amb el pla $\pi$ i tindrem el seg
 
 $$5-5\lambda=3\rightarrow \lambda=\frac{ 2 }{ 5 }\rightarrow C=(-\frac{ 8 }{ 5 },3,3)$$
 
-Llavors, l'equació de la projecció de $r$ sobre el pla $\pi$, o sigui $r^\prime$ la podem trobar amb els punts $P^{\prime}=(-4,3,3)$ i C=(-\frac{ 8 }{ 5 },3,3)$$. Calculeu el seu vector director:
+Llavors, l'equació de la projecció de $r$ sobre el pla $\pi$, o sigui $r^\prime$ la podem trobar amb els punts $P^{\prime}=(-4,3,3)$ i $C=(-\frac{ 8 }{ 5 },3,3)$. Calculeu el seu vector director:
 
 $$\overrightarrow{ v^\prime }=\overrightarrow{ P^\prime C} =(-\frac{ 12 }{ 5 },0,0)$$
 
