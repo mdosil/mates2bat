@@ -189,10 +189,11 @@ Existeix també una fòrmula per a calcular la distància entre dues rectes que 
 
 $$d(r,s)=\frac{ |\overrightarrow{ PQ } \cdot (\overrightarrow{ u }\times \overrightarrow{ v })|}{ |\overrightarrow{ u }\times \overrightarrow{ v }| }$$
 
+**Manera 2**
 
 També podíem haver fet aquest problema d'una altra manera. Anem a veure-ho a sota.
 
-1. Trobem l'equació d'un pla $\pi$ que conté la recta de sota, $s$. Per trobar-lo, com que les dues rectes ja hem comprovat prèviament que es creuen, agafo els 2 vectors directors de $r$ i $s$ i el punt $Q$ de $s$:
+1. Trobem l'equació d'un pla $\pi$ que conté la recta de sota, $s$ i és paral.lel a la recta de dalt, $r$. Per trobar-lo, com que les dues rectes ja hem comprovat prèviament que es creuen, agafo els 2 vectors directors de $r$ i $s$ i el punt $Q$ de $s$:
 
 
     $$\begin{vmatrix}
