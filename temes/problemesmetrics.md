@@ -228,7 +228,13 @@ Si són paral.lels no coincidents, l'únic que haurem de fer és agafar un punt 
 
 ###Projecció d'una recta sobre un pla
 
-Donat un pla $\pi$ i una recta $r$ qualsevol, es pot calcular la seva projecció sobre el pla. Diguem que és com si calculéssim l'ombra de la recta sobre el pla. Ho veurem a través d'un exemple.
+Donat un pla $\pi$ i una recta $r$ qualsevol, es pot calcular la seva projecció sobre el pla. Diguem que és com si calculéssim l'ombra de la recta sobre el pla. Primer caldrà estudiar la posició relativa entre recta i pla. Ens podem trobar en 3 casos diferents:
+
+* El pla i la recta són paral.lels. En aquest cas agafarem un punt $P$ qualsevol de la recta $r$ i calcularem la seva [projecció ortogonal](http://mdosil.cat/mates2batcientific/temes/problemesmetrics/#distancia-dun-punt-a-una-recta) sobre el pla $\pi$, $P^{\prime}$. Per trobar l'equació d'una recta necessitem un punt i un vector o dos punts (perquè el vector ja s'obté fent extrem menys origen dels punts). Fem el mateix amb un altre punt de la recta i ja haurem acabat. Trobem l'equació de la recta projectada a partir d'aquests dos punts.
+* La recta pertany al pla. En aquest cas, la projecció de la recta sobre el pla és ella mateixa.
+* El pla i la recta es tallen. El primer punt que utilitzem és el punt de tall del pla $\pi$ i la recta $r$, diguem-li $A$. El segon punt s'obté calculant la projecció ortogonal de $P$ sobre el pla $pi$, diguem-li $P^\prime$. Amb aquests dos punts ja podem obtenir l'equació de la recta projectada.
+
+
 
 __Exemple 3__
 
