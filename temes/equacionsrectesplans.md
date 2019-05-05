@@ -244,7 +244,7 @@ També podem considerar la posició relativa de dues rectes agafant les equacion
 
     Té infinites solucions. Les rectes són coincidents.
 
-__Exemple 5__
+__Exemple 6__
 
 Troba la posició relativa de les rectes:
 
@@ -338,7 +338,7 @@ Donat un pla i una recta ens podem trobar amb 3 casos diferents:
 
     El producte escalar del vector normal al pla i del vector director de la recta no és zero. Per trobar el punt d'intersecció cal resoldre el sistema esmentat anteriorment. El sistema és __compatible determinat__ i la solució és el punt de tall.
 
-__Exemple 6__
+__Exemple 7__
 
 Determina la posició relativa entre la recta $r \equiv \frac{ x-1 }{ 2 }=\frac{ y-2 }{ 3 }=\frac{ z-3 }{ 4 }$ i el pla $\pi \equiv  4x+5y-2z+7=0$.
 
@@ -372,7 +372,7 @@ $$\sin(\beta)=\cos(\alpha)=\frac{ |\overrightarrow{ n }\cdot {\overrightarrow{ u
 
 Recordem que fem el valor absolut del producte escalar perquè s'agafa com a angle entre recta i pla l'angle més petit que formen els dos ($\le 90$).
 
-__Exemple 7__
+__Exemple 8__
 
 Calcula l'angle entre la recta $r\equiv \frac{ x-1 }{ 2 }=\frac{y-2}{3}=\frac{ z-3 }{ 4 }$ i el pla $\pi\equiv 4x+5y-2z+7=0$
 
@@ -412,7 +412,7 @@ Donats dos plans: $\pi_1 \equiv A_1x+B_1y+C_1z+D_1=0$ i $\pi_2 \equiv A_2x+B_2y+
 
 
 
-__Exemple 8__
+__Exemple 9__
 
 Doneu l'equació del pla paral.lel al pla $\pi \equiv x-y-2z=0$ que passa per l'origen de coordenades.
 
@@ -432,7 +432,7 @@ Si l'equació general de 3 plans, obtenim un sistema $3\times 3$. Per saber-ne l
 2. $Rang A=Rang MA=2\rightarrow$ El sistema és compatible indeterminat i té infinites solucions, els plans es tallen en una recta.
 3. $Rang A \neq Rang MA\rightarrow$ El sistema és incompatible i no té solució, els plans no es tallen. Aquí poden passar vàries possibilitats, per exemple que siguin paral.lels, que es tallin dos a dos...
 
-__Exemple 9__
+__Exemple 10__
 
 Determina la posició dels següents plans en funció del paràmetre $a$:
 
@@ -461,7 +461,7 @@ $$
 Calculem ara el determinant de la matriu $A$:
 
 $$
-|A|=-a^3-3a-2=-(a-1)^2(a+2)
+|A|=-a^3+3a-2=-(a-1)^2(a+2)
 $$
 
 Si l'igualem a zero, veiem que s'anul.la pels valors $a=-2$ i $a=1$. Per tant, podem definir 2 casos:
@@ -552,7 +552,7 @@ $$\lambda (A_1x+B_1y+C_1z+D_1)+ A_2x+B_2y+C_2z+D_2=0$$
 
 En el cas que $\beta$ fos zero, només hi hauria un pla en el feix, i aquest seria lògicament $\pi_1$.
 
-__Exemple 10__
+__Exemple 11__
 
 Troba l'equació del pla que conté la recta:
 
@@ -571,4 +571,4 @@ $$\lambda (3\cdot 1+0)+2\cdot 1+1=0\rightarrow \lambda= -1$$
 
 Per tant, el pla que ens demanen és:
 
-$$x-y-z-1=0$$
+$$x-y+z-1=0$$
