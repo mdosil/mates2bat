@@ -187,7 +187,7 @@ Per comprovar si 2 rectes són complanàries, caldrà veure si els seus vectors 
 
 __Exemple 5__
 
-Determina si les rectes $r \equiv \begin{cases} x=1+2 u_1 \\ y=3 u_2 \\ z=5- u_3 \end{cases}$ i $s \equiv \frac{ x-1 }{ 5 }=\frac{ y-3 }{ 1 }=\frac{ z + 2 }{ 2 }$ són coplanàries.
+Determina si les rectes $r \equiv \begin{cases} x=1+2 \lambda \\ y=3 \lambda \\ z=5- \lambda \end{cases}$ i $s \equiv \frac{ x-1 }{ 5 }=\frac{ y-3 }{ 1 }=\frac{ z + 2 }{ 2 }$ són coplanàries.
 
 De la recta $r$ en trobem el seu vector director $\overrightarrow{ u }=(2,3,-1)$ i un punt $A=(1,0,5)$. Fem el mateix per la recta $s$: $\overrightarrow{ v }=(5,1,2)$ i $B=(1,3,-2)$. Construïm un tercer vector $\overrightarrow{ AB }=(0,3,-7)$. El que ens cal ara és mirar si els 3 vectors són linealment dependents (determinant igual a zero). En cas afirmatiu les rectes seran coplanàries.
 
