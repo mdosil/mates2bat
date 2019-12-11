@@ -221,7 +221,7 @@ Per tant: $f^\prime (x)=2x$ és la derivada de $f(x)=x^2+1$.
 
 ##Regles de derivació
 
-Aplicant la definició de derivada (càlcul del límit), podem llistar les derivades de les funcions més comunes. Demostrarem les 4 primeres regles de derivació i la resta les posarem en una taula. En aquest [enllaç](https://www.khanacademy.org/math/ap-calculus-bc/bc-derivative-rules) trobareu més informació de les regles de derivació així com els vídeos amb la seva demostració.
+Aplicant la definició de derivada (càlcul del límit), podem llistar les derivades de les funcions més comunes. Demostrarem les 4 primeres regles de derivació i la resta les posarem en una taula. En aquest [enllaç](https://www.khanacademy.org/math/ap-calculus-bc/bc-derivative-rules) trobareu més informació de les regles de derivació així com els vídeos amb les demostracions.
 
 
 **Regla 1**
