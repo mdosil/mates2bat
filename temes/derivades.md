@@ -246,7 +246,7 @@ $$f^{\prime}(a)=\lim\limits_{x\to a} \frac{f(x)-f(a)}{x-a}=\lim\limits_{x\to a} 
 
 *Demostració*
 
-$$f^{\prime}(a)=\lim\limits_{x\to a} \frac{f(x)-f(a)}{x-a}=\lim\limits_{x\to a} \frac{(f+g)(x)-(f+g)(a)}{x-a}=\lim\limits_{x\to a} \frac{f(x)+g(x)-f(a)-g(a)}{x-a}=\lim\limits_{x\to a} \frac{f(x)-f(a)}{x-a}=\lim\limits_{x\to a} \frac{g(x)-g(a)}{x-a}=f^\prime(a)+g^\prime(a) \forall a$$
+$$f^{\prime}(a)=\lim\limits_{x\to a} \frac{f(x)-f(a)}{x-a}=\lim\limits_{x\to a} \frac{(f+g)(x)-(f+g)(a)}{x-a}=\lim\limits_{x\to a} \frac{f(x)+g(x)-f(a)-g(a)}{x-a}=\lim\limits_{x\to a} \frac{f(x)-f(a)}{x-a}+lim\limits_{x\to a} \frac{g(x)-g(a)}{x-a}=f^\prime(a)+g^\prime(a) \forall a$$
 
 
 **Regla 4**
