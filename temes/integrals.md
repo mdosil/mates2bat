@@ -78,7 +78,7 @@ Considerem $u(x)$ una funció qualsevol. Llavors:
 
 |      | |
 | :------------- |:------------- |
-|    $$\int \frac{1}{u(x)}\cdot u^\prime (x) dx=\ln(x)+C$$  | |
+|    $$\int \frac{1}{u(x)}\cdot u^\prime (x) dx=\ln(u(x))+C$$  | |
 |    $$\int e^{u(x)}\cdot u^\prime (x) dx=e^{u(x)}+C$$  | |
 |    $$\int u(x)^n \cdot u^\prime (x) dx= \frac{u(x)^{n+1}}{n+1}+C$$  | |
 |    $$\int \cos(u(x))\cdot u^\prime (x) dx=\sin(u(x))+C$$  | |
