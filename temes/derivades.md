@@ -255,7 +255,7 @@ $$f^{\prime}(a)=\lim\limits_{x\to a} \frac{f(x)-f(a)}{x-a}=\lim\limits_{x\to a} 
 
 *Demostració*
 
-$$f^{\prime}(a)=\lim\limits_{x\to a} \frac{f(x)-f(a)}{x-a}=\lim\limits_{x\to a} \frac{(K\cdot f)(x)-(K \cdot f)(a)}{x-a}=\lim\limits_{x\to a} \frac{K\cdot (f(x)-f(a)}{x-a}=\lim\limits_{x\to a} K \cdot  \lim\limits_{x\to a} \frac{f(x)-f(a)}{x-a}=K \cdot f^\prime (a)$$
+
 
 ###Taula de derivades
 
