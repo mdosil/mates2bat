@@ -553,7 +553,7 @@ La figura delimitada per l'eix de les abcisses, les dues rectes $x=a$ i $x=b$ i 
 
 ###Teorema fonamental del càlcul i regla de Barrow
 
-El [Teorema fonamental del càlcul](https://es.khanacademy.org/math/integral-calculus/fundamental-theorem-of-calculus-ic) ens diu que donada una funció contínua $f(t)$ en un interval tancat $[a,b]$, si definim la funció àrea sota la corba de $f(x)$ com $F(x)=\int_{a}^{x} f(t) dt$, llavors, aquesta funció és una primitiva de $f(x)$:
+El [Teorema fonamental del càlcul](https://es.khanacademy.org/math/integral-calculus/ic-integration/ic-ftc-part-1/v/fundamental-theorem-of-calculus) ens diu que donada una funció contínua $f(t)$ en un interval tancat $[a,b]$, si definim la funció àrea sota la corba de $f(x)$ com $F(x)=\int_{a}^{x} f(t) dt$, llavors, aquesta funció és una primitiva de $f(x)$:
 
 $$\frac{dF}{dx}=\frac{d}{dx}\int_{a}^{x} f(t)dt=f(x)$$
 
