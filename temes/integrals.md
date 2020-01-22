@@ -234,11 +234,11 @@ $$\frac{3x-2}{(x+1)(x-2)}=\frac{\frac{4}{3}}{x-2}+\frac{\frac{5}{3}}{x+1}$$
 I això ens permet calcular la nostra integral com a suma d'integrals quasi immediates:
 
 
-$$\int \frac{3x-2}{x^2-x-2}dx=\frac{4}{3}\int \frac{1}{x-2}dx+\frac{5}{3}\int \frac{1}{x+1}dx=-\frac{4}{3} \ln (x-2)+\frac{5}{3} \ln (x+1)+C$$
+$$\int \frac{3x-2}{x^2-x-2}dx=\frac{4}{3}\int \frac{1}{x-2}dx+\frac{5}{3}\int \frac{1}{x+1}dx=\frac{4}{3} \ln (x-2)+\frac{5}{3} \ln (x+1)+C$$
 
 Per tant, la integral que volíem calcular al principi ens donarà:
 
-$$\int \frac{x^3-4}{x^2-x-2}dx = \frac{1}{2}x^2+x-\frac{4}{3} \ln(x-2) + \frac{5}{3} \ln(x+1)+C$$
+$$\int \frac{x^3-4}{x^2-x-2}dx = \frac{1}{2}x^2+x+\frac{4}{3} \ln(x-2) + \frac{5}{3} \ln(x+1)+C$$
 
 En general, per l'expansió en fraccions parcials d'una fracció pròpia, seguirem les normes següents:
 
