@@ -1,6 +1,6 @@
 #Tema 7: Vectors a l'espai
 
-El [curs passat](http://mdosil.cat/mates1batcientific/temes/vectors/) estudiàvem la geometria en el pla, $\mathbb{R}^2$. Aquest any, l'estudiarem a l'espai, $\mathbb{R}^3$. Això vol dir que a part dels punts, vectors i rectes també treballarem amb plans.
+El [curs passat](http://mdosil.cat/mates1batcientific/temes/vectors/) /estudiàvem/ la geometria en el pla, $\mathbb{R}^2$. Aquest any, l'estudiarem a l'espai, $\mathbb{R}^3$. Això vol dir que a part dels punts, vectors i rectes també treballarem amb plans.
 
 L'espai $\mathbb{R}^3$ té 3 dimensions, les anomenarem $x$, $y$ i $z$ i representarem els objectes en aquests eixos coordenats.
 
