@@ -377,7 +377,7 @@ $$
 
 ####Producte general de Matrius
 
-Per tal que el producte de dues matrius $A$ i $B$ estigui definitm necessitem que __el nombre de columnes de la matriu $A$ sigui igual al nombre de files de la matriu $B$__. D'altra banda, si el producte $A\cdot B$ està definit, el producte $B \cdot A$ no té perquè estar-ho.
+Per tal que el producte de dues matrius $A$ i $B$ estigui definit necessitem que __el nombre de columnes de la matriu $A$ sigui igual al nombre de files de la matriu $B$__. D'altra banda, si el producte $A\cdot B$ està definit, el producte $B \cdot A$ no té perquè estar-ho.
 
 __Exemple 4__
 
@@ -479,7 +479,9 @@ El resultat d'un determinant sempre és un nombre real.
 
 ###Determinants d'ordre 3
 
-També podem definir el determinant d'una matriu d'ordre 3:
+####Càlcul de determinants d'ordre tres mitjançant la regla de Sarrus
+
+Podem calcular el determinant d'una matriu d'ordre 3 tal i com es mostra en el procediment següent:
 
 $$
 \begin{vmatrix}
@@ -1150,21 +1152,21 @@ $$
 Per tant, la matriu adjunta serà:
 
 $$Adj(A)=
-\begin{vmatrix}
+\begin{pmatrix}
 -1 & -6 & 5\\
 -14 & 8 & 1\\
 -3 & 5 & -8
-\end{vmatrix}
+\end{pmatrix}
 $$
 
 Si la transposem obtenim:
 
 $$(Adj(A))^T=
-\begin{vmatrix}
+\begin{pmatrix}
 -1 & -14 & -3\\
 -6 & 8 & 5\\
 5 & 1 & -8
-\end{vmatrix}
+\end{pmatrix}
 $$
 
 Així doncs, la inversa de $A$ serà:
