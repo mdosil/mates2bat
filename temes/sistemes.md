@@ -54,7 +54,7 @@ Pel que fa a les solucions, diem que dos sistemes són __equivalents__ si tenen 
 
 L'enunciat del teorema ens diu el següent:
 
-> Un sistema només és __compatible__ si rang$M$=rang$MA$.
+> Un sistema només és __compatible__ si rang$A$=rang$MA$.
 
 >Si rang$A$=rang$MA$=$r=n$, on $n$ és el nombre d'incògnites, el sistema és __compatible determinat__
 
