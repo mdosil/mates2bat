@@ -266,7 +266,7 @@ $$
 
 La solució d'aquest sistema és:
 
-$$x=\frac{ -4 }{ 3 }\qquad y=0 \qquad z=\frac{ -1 }{ 3 }$$
+$$x=\frac{ 4 }{ 3 }\qquad y=0 \qquad z=\frac{ -1 }{ 3 }$$
 
 
 ###Mètode de Gauss
