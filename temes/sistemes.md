@@ -448,7 +448,7 @@ $$
 1 & -2 & -2\\
 8 & 5 & 1
 \end{vmatrix}
-=15
+=49
 $$
 
 Veiem que el rang de la matriu ampliada és 3. Com que els 2 rangs no són iguals, tenim un __sistema incompatible__.
