@@ -476,7 +476,7 @@ on $q$ és la càrrega de la partícula i $\overrightarrow{ v }$ la seva velocit
 
 Ens fixarem en aquesta segona part, $\overrightarrow{ F }_m=q\cdot \overrightarrow{ v }\times \overrightarrow{ B }$. Si calculem el mòdul del producte vectorial obtenim:
 
-$$|\overrightarrow{ F }_m|=|q|\cdot|\cdot \overrightarrow{ v }\times \overrightarrow{ B }|=q\cdot v \cdot B \sin \theta$$
+$$|\overrightarrow{ F }_m|=|q|\cdot| \overrightarrow{ v }\times \overrightarrow{ B }|=q\cdot v \cdot B \sin \theta$$
 
 on $\theta$ és l'angle entre la velocitat de desplaçament de la partícula $\overrightarrow{ v }$ i el camp magnètic \overrightarrow{ B }. D'aquesta manera, quan la velocitat i el camp magnètic són paral.lels, aquesta part de la força es cancel.la, i la partícula segueix la mateixa trajectòria, paral.lela al camp elèctric. Però si no són paral.lels, la partícula comença a experimentar una força perpendicular a la seva direcció de moviment, fet que fa que la partícula experimenti una trajectòria circular. En absència de camp elèctric, Si $\overrightarrow{ v }$ i \overrightarrow{ B } són perpendiculars, la trajectòria de la partícula serà circular, i si l'angle entre el camp magnètic i la velocitat està entre zero i noranta graus, $0<\theta<90$, la trajectòria de la partícula serà helicoidal. Cliqueu [aquest enllaç](https://courses.lumenlearning.com/boundless-physics/chapter/motion-of-a-charged-particle-in-a-magnetic-field/) per una explicació més detallada del fenomen.
 
