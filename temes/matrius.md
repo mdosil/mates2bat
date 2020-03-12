@@ -1235,19 +1235,20 @@ $$
 
 Pel primer menor d'ordre 2 el podem orlar de dues maneres diferents i obtenim 2 menors d'ordre 3:
 
-$$\begin{vmatrix}
+$$
+\begin{vmatrix}
+2 & 3 & -3\\
+1 & 0 & 2\\
+4 & 1 & 0
+\end{vmatrix}
+=17
+\qquad
+\begin{vmatrix}
 2 & 3 & 4\\
 1 & 0 & 1\\
 4 & 1 & 3
 \end{vmatrix}
 =5
-\qquad
-\begin{vmatrix}
-3 & -3 & 4\\
-0 & 2 & 1\\
-1 & 0 & 3
-\end{vmatrix}
-=7
 $$
 
 Notem que d'aquesta matriu no en podem calcular el determinant perquè no és una matriu quadrada.
