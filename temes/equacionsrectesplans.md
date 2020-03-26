@@ -108,7 +108,7 @@ Per veure si els 3 punts estan alineats només caldrà buscar 2 vectors determin
 
 
 
-$$\begin{cases}  \overrightarrow{ AB }=(1,-1,-6) \\ \overrightarrow{ AC }=(1,-1,-6)  \end{cases}\rightarrow \frac{ 1 }{ 2 } \ne \frac{ -1 }{ -1 } \ne \frac{ -6 }{ 2 }$$
+$$\begin{cases}  \overrightarrow{ AB }=(1,-1,-6) \\ \overrightarrow{ AC }=(2,-1,2)  \end{cases}\rightarrow \frac{ 1 }{ 2 } \ne \frac{ -1 }{ -1 } \ne \frac{ -6 }{ 2 }$$
 
 Per tant, els 2 vectors són linealment independents. Això vol dir que els 3 punts no estan alineats i formen triangle i per tant, estan en un mateix pla.
 
